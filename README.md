@@ -11,7 +11,7 @@ values must be manipulated accurately, a different representation for integers i
 this project is to develop an integer calculator that works with extended-precision integer values. The
 calculator has a simple interface, and 26 “variables” (or memories) into which values can be stored. For
 example a session with your calculator (where > is the prompt from the system) might look like:
-mac: ./ass1
+
 > a = 2147483647
 > a ?
 2147483647
@@ -28,7 +28,6 @@ mac: ./ass1
 > a ?
 2147483648
 > ^D
-mac:
 
 Note the extremely limited syntax: constants or other variables can be assigned to variables using an
 “=” operator; or variable values can be altered using a single operator and another variable or constant
